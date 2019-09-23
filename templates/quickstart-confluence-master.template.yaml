@@ -1721,7 +1721,7 @@ Resources:
       FromPort: -1
       ToPort: -1
       SourceSecurityGroupId: !Ref SecurityGroup
-# Optional: Cloudwatch dashboard to be created when CloudWatch is enabled
+# Optional: CloudWatch dashboard to be created when CloudWatch is enabled
   CloudWatchDashboard:
     DependsOn:
       - DB
